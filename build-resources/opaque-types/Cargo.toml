@@ -28,13 +28,13 @@ panic = [
 default = ["zenoh/default"]
 
 [dependencies]
-zenoh = { version = "1.8.0", git = "https://github.com/eclipse-zenoh/zenoh.git", rev = "2687c51352121f006e3a603ce07925a8ad0b295c", default-features = false, features = [
+zenoh = { version = "1.8.0", git = "https://github.com/BOURBONCASK/zenoh.git", rev = "7f47053f537bc358c2aed600484fe978956f14a1", default-features = false, features = [
     "internal",
 ] }
-zenoh-ext = { version = "1.8.0", git = "https://github.com/eclipse-zenoh/zenoh.git", rev = "2687c51352121f006e3a603ce07925a8ad0b295c", default-features = false, features = [
+zenoh-ext = { version = "1.8.0", git = "https://github.com/BOURBONCASK/zenoh.git", rev = "7f47053f537bc358c2aed600484fe978956f14a1", default-features = false, features = [
     "internal",
 ] }
-zenoh-protocol = { version = "1.8.0", git = "https://github.com/eclipse-zenoh/zenoh.git", rev = "2687c51352121f006e3a603ce07925a8ad0b295c" }
+zenoh-protocol = { version = "1.8.0", git = "https://github.com/BOURBONCASK/zenoh.git", rev = "7f47053f537bc358c2aed600484fe978956f14a1" }
 const_format = "0.2.32"
 flume = "*"
 tokio = "*"
