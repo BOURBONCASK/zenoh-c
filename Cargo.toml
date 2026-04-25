@@ -76,19 +76,19 @@ tokio = "*"
 unwrap-infallible = "0.1.5"
 const_format = "0.2.32"
 flume = "*"
-zenoh = { version = "1.8.0", git = "https://github.com/BOURBONCASK/zenoh.git", rev = "7f47053f537bc358c2aed600484fe978956f14a1", default-features = false, features = ["internal"] }
-zenoh-ext = { version = "1.8.0", git = "https://github.com/BOURBONCASK/zenoh.git", rev = "7f47053f537bc358c2aed600484fe978956f14a1", default-features = false, features=["internal"] }
-zenoh-runtime = { version = "1.8.0", git = "https://github.com/BOURBONCASK/zenoh.git", rev = "7f47053f537bc358c2aed600484fe978956f14a1" }
-zenoh-util = { version = "1.8.0", git = "https://github.com/BOURBONCASK/zenoh.git", rev = "7f47053f537bc358c2aed600484fe978956f14a1" }
-zenoh-pinned-deps-1-75 = { version = "1.8.0", git = "https://github.com/BOURBONCASK/zenoh.git", rev = "7f47053f537bc358c2aed600484fe978956f14a1" }
+zenoh = { version = "1.8.0", git = "https://github.com/BOURBONCASK/zenoh.git", rev = "8db2f3b7660238c0c6b40634c2554961d40f294a", default-features = false, features = ["internal"] }
+zenoh-ext = { version = "1.8.0", git = "https://github.com/BOURBONCASK/zenoh.git", rev = "8db2f3b7660238c0c6b40634c2554961d40f294a", default-features = false, features=["internal"] }
+zenoh-runtime = { version = "1.8.0", git = "https://github.com/BOURBONCASK/zenoh.git", rev = "8db2f3b7660238c0c6b40634c2554961d40f294a" }
+zenoh-util = { version = "1.8.0", git = "https://github.com/BOURBONCASK/zenoh.git", rev = "8db2f3b7660238c0c6b40634c2554961d40f294a" }
+zenoh-pinned-deps-1-75 = { version = "1.8.0", git = "https://github.com/BOURBONCASK/zenoh.git", rev = "8db2f3b7660238c0c6b40634c2554961d40f294a" }
 rustc-hash = "=2.1.1"
 
 [target.'cfg(unix)'.dependencies]
 ctor = "0.4.1"
 
 [build-dependencies]
-zenoh = { version = "1.8.0", git = "https://github.com/BOURBONCASK/zenoh.git", rev = "7f47053f537bc358c2aed600484fe978956f14a1", default-features = false, features = ["internal"] }
-zenoh-pinned-deps-1-75 = { version = "1.8.0", git = "https://github.com/BOURBONCASK/zenoh.git", rev = "7f47053f537bc358c2aed600484fe978956f14a1" }
+zenoh = { version = "1.8.0", git = "https://github.com/BOURBONCASK/zenoh.git", rev = "8db2f3b7660238c0c6b40634c2554961d40f294a", default-features = false, features = ["internal"] }
+zenoh-pinned-deps-1-75 = { version = "1.8.0", git = "https://github.com/BOURBONCASK/zenoh.git", rev = "8db2f3b7660238c0c6b40634c2554961d40f294a" }
 cbindgen = "0.29.0"
 fs2 = "0.4.3"
 regex = "1.11.1"
